@@ -85,4 +85,12 @@ function donutConstructor(type, glazed, sweetness, hasChocolate) {
     };
 }
 
-//22:28
+
+var coconutDonut = new donutConstructor("coconut", false, 8, true);
+console.log(coconutDonut);
+var vanillaDonut = new donutConstructor("vanilla", true, 10, false);
+vanillaDonut.sayType();
+vanillaDonut.showSweetness();
+coconutDonut.tasteGood = true;
+console.log(coconutDonut);
+
