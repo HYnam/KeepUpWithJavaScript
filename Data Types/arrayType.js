@@ -45,6 +45,10 @@ console.log(concattedArray);
 var slicedArray = concattedArray.slice(4, 8);   // start slicing at pos 4 and end at pos 8
 console.log(slicedArray);
 
+var slicedArray1 = myOtherNames.slice(myOtherNames.length - 1); // print out the last name
+console.log(slicedArray1);
+console.log(myOtherNames);
+
 // join()
 var joinedArray = slicedArray.join(" ");  // make array as a string with " "
 console.log(joinedArray);
